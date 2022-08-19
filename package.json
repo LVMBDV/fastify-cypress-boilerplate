@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "ts-node ./src/server",
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "fastify": "^4.5.2",
+    "fastify-plugin": "^4.2.0",
+    "mongoose": "^6.5.2"
+  }
+}

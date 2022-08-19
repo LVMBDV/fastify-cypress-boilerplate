@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "target": "es2021",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    "jsx": "react",
+
+    "noEmit": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
+}
